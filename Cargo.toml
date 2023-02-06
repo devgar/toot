@@ -7,4 +7,5 @@ edition = "2021"
 
 [dependencies]
 dotenvy = "0.15.6"
-elefren = "0.22.0"
+megalodon = "0.4.1"
+tokio = { version = "1", features = ["full"] }
