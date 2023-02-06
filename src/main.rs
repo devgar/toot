@@ -16,10 +16,10 @@ async fn main() {
     };
     match verify_credentials(url.as_str(), token).await {
         Ok(response) => {
-            println!("{:#?}", response);
+            println!("{response:#?}");
         }
         Err(err) => {
-            println!("{:#?}", err);
+            println!("{err:#?}");
         }
     }
 }
