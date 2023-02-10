@@ -1,6 +1,6 @@
 use clap::Parser;
 
-#[derive(Parser, Debuf)]
+#[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
     /// Name of the person to gree
